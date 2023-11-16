@@ -10,3 +10,5 @@ firewall-cmd --list-all-zones
 dnf install bind bind-utils +enable +start named
 dnf install httpd +enable +start
 dnf install perl-CGI
+
+# need transform to code
